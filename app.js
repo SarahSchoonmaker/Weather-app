@@ -8,7 +8,7 @@ http.createServer(function(request, response){
 	router.homeRoute(request,response);
 	router.userRoute(request,response);
 
-}).listen(process.env.PORT || 8080, '127.0.0.1');
+}).listen(process.env.PORT || 8080);
 
 console.log('Server running at localhost:8080');
 
